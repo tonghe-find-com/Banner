@@ -1,6 +1,6 @@
 <?php
 
-namespace Tonghe\Modules\Banners\Http\Requests;
+namespace TypiCMS\Modules\Banners\Http\Requests;
 
 use TypiCMS\Modules\Core\Http\Requests\AbstractFormRequest;
 

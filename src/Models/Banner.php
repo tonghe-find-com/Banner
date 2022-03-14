@@ -1,6 +1,6 @@
 <?php
 
-namespace Tonghe\Modules\Banners\Models;
+namespace TypiCMS\Modules\Banners\Models;
 
 use App\HasImage;
 use App\HasList;
@@ -11,7 +11,7 @@ use TypiCMS\Modules\Core\Models\Base;
 use TypiCMS\Modules\Files\Models\File;
 use TypiCMS\Modules\Files\Traits\HasFiles;
 use TypiCMS\Modules\History\Traits\Historable;
-use Tonghe\Modules\Banners\Presenters\ModulePresenter;
+use TypiCMS\Modules\Banners\Presenters\ModulePresenter;
 use Illuminate\Support\Facades\Storage;
 
 class Banner extends Base

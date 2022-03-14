@@ -1,6 +1,6 @@
 <?php
 
-namespace Tonghe\Modules\Banners\Http\Controllers;
+namespace TypiCMS\Modules\Banners\Http\Controllers;
 
 use Illuminate\Http\Request;
 use Illuminate\Pagination\LengthAwarePaginator;
@@ -8,7 +8,7 @@ use Spatie\QueryBuilder\AllowedFilter;
 use Spatie\QueryBuilder\QueryBuilder;
 use TypiCMS\Modules\Core\Filters\FilterOr;
 use TypiCMS\Modules\Core\Http\Controllers\BaseApiController;
-use Tonghe\Modules\Banners\Models\Banner;
+use TypiCMS\Modules\Banners\Models\Banner;
 
 class ApiController extends BaseApiController
 {

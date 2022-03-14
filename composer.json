@@ -10,7 +10,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Tonghe\\Modules\\Banners\\": "src/"
+            "TypiCMS\\Modules\\Banners\\": "src/"
         }
     },
     "minimum-stability": "dev",

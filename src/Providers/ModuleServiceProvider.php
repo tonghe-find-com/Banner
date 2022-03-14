@@ -1,13 +1,13 @@
 <?php
 
-namespace Tonghe\Modules\Banners\Providers;
+namespace TypiCMS\Modules\Banners\Providers;
 
 use Illuminate\Foundation\AliasLoader;
 use Illuminate\Support\ServiceProvider;
 use TypiCMS\Modules\Core\Facades\TypiCMS;
-use Tonghe\Modules\Banners\Composers\SidebarViewComposer;
-use Tonghe\Modules\Banners\Facades\Banners;
-use Tonghe\Modules\Banners\Models\Banner;
+use TypiCMS\Modules\Banners\Composers\SidebarViewComposer;
+use TypiCMS\Modules\Banners\Facades\Banners;
+use TypiCMS\Modules\Banners\Models\Banner;
 
 class ModuleServiceProvider extends ServiceProvider
 {

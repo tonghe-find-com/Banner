@@ -1,6 +1,6 @@
 <?php
 
-namespace Tonghe\Modules\Banners\Facades;
+namespace TypiCMS\Modules\Banners\Facades;
 
 use Illuminate\Support\Facades\Facade;
 

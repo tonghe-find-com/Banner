@@ -61,4 +61,18 @@ class Banner extends Base
     {
         return $this->belongsTo(File::class, 'product_image_id');
     }
+
+    public function getVideoAttribute()
+    {
+        return Storage::url($this->image->path ?? '');
+    }
+
+    public function getIsVideoAttribute()
+    {
+        if($this->image_id > 0 && $this->image && $this->image->type=='a'){
+            return true;
+        }else{
+            return false;
+        }
+    }
 }

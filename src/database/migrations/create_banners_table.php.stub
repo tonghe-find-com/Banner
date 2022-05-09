@@ -20,7 +20,7 @@ class CreateBannersTable extends Migration
             $table->integer('product_image_id')->unsigned()->nullable();
             $table->json('status');
             $table->json('title');
-            $table->json('summary');
+            $table->json('summary')->nullable();
             $table->integer('position')->unsigned()->default(0);
             $table->json('link')->nullable();
             $table->timestamps();
